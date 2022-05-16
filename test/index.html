@@ -736,7 +736,7 @@
     TRANSP:TRANSPARENT
     END:VEVENT
     END:VCALENDAR`;
-        element.setAttribute('href', 'data:ics;charset=utf-8,' + encodeURIComponent(text));
+        element.setAttribute('href', 'charset=utf-8,' + encodeURIComponent(text));
         element.setAttribute('download', 'test.ics');
         element.style.display = 'block';
     });
