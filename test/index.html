@@ -736,7 +736,7 @@ SUMMARY:Tutorials - Tutorials Material
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR`;
-        element.setAttribute('href', 'data:text/calendar;charset=utf-8,' + encodeURIComponent(text.trim()));
+        element.setAttribute('href', 'data:text/calendar;charset=utf-8,' + encodeURIComponent(text));
         element.setAttribute('download', 'test.ics');
         element.style.display = 'block';
     });
