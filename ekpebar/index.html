@@ -9,8 +9,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Mulish:wght@400;500;700;900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/vendor.min.css?=1653419495462">
-	<link rel="stylesheet" href="css/main.min.css?=1653419495462">
+	<link rel="stylesheet" href="css/vendor.min.css?=1653463363056">
+	<link rel="stylesheet" href="css/main.min.css?=1653463363056">
 </head>
 
 <body>
@@ -24,16 +24,28 @@
                 <img src="images/logo.svg" alt="логотип">
             </a>
             <nav class="header__nav">
-                <a href="#" class="header__link header__link_calendar">
-                    Вакцинаяция күнтізбесі
+                <a href="#calendar" class="header__link header__link_calendar">
+                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.561 4.75H6.56104C4.76611 4.75 3.31104 6.20507 3.31104 8V18C3.31104 19.7949 4.76611 21.25 6.56104 21.25H18.561C20.356 21.25 21.811 19.7949 21.811 18V8C21.811 6.20507 20.356 4.75 18.561 4.75Z" stroke="#301C3D" stroke-width="1.5"/>
+                        <path d="M7.31104 2.75V6.25" stroke="#301C3D" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M4.31104 9.25H20.811" stroke="#301C3D" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M18.311 2.75V6.25" stroke="#301C3D" stroke-width="1.5" stroke-linecap="round"/>
+                        <path d="M8.81104 14C9.22525 14 9.56104 13.6642 9.56104 13.25C9.56104 12.8358 9.22525 12.5 8.81104 12.5C8.39682 12.5 8.06104 12.8358 8.06104 13.25C8.06104 13.6642 8.39682 14 8.81104 14Z" fill="#301C3D"/>
+                        <path d="M12.811 14C13.2252 14 13.561 13.6642 13.561 13.25C13.561 12.8358 13.2252 12.5 12.811 12.5C12.3968 12.5 12.061 12.8358 12.061 13.25C12.061 13.6642 12.3968 14 12.811 14Z" fill="#301C3D"/>
+                        <path d="M16.811 14C17.2252 14 17.561 13.6642 17.561 13.25C17.561 12.8358 17.2252 12.5 16.811 12.5C16.3968 12.5 16.061 12.8358 16.061 13.25C16.061 13.6642 16.3968 14 16.811 14Z" fill="#301C3D"/>
+                        <path d="M8.81104 18C9.22525 18 9.56104 17.6642 9.56104 17.25C9.56104 16.8358 9.22525 16.5 8.81104 16.5C8.39682 16.5 8.06104 16.8358 8.06104 17.25C8.06104 17.6642 8.39682 18 8.81104 18Z" fill="#301C3D"/>
+                        <path d="M12.811 18C13.2252 18 13.561 17.6642 13.561 17.25C13.561 16.8358 13.2252 16.5 12.811 16.5C12.3968 16.5 12.061 16.8358 12.061 17.25C12.061 17.6642 12.3968 18 12.811 18Z" fill="#301C3D"/>
+                        <path d="M16.811 18C17.2252 18 17.561 17.6642 17.561 17.25C17.561 16.8358 17.2252 16.5 16.811 16.5C16.3968 16.5 16.061 16.8358 16.061 17.25C16.061 17.6642 16.3968 18 16.811 18Z" fill="#301C3D"/>
+                    </svg>                        
+                    Вакцинация күнтізбесі
                 </a>
-                <a href="#" class="header__link">
+                <a href="#project" class="header__link">
                     Жоба туралы                    
                 </a>
-                <a href="#" class="header__link">
+                <a href="#team" class="header__link">
                     Команда
                 </a>
-                <a href="#" class="header__link">        
+                <a href="#contacts" class="header__link">        
                     Байланыс
                 </a>
             </nav>
@@ -54,7 +66,7 @@
                         Ауырып ем іздегенше, <span>ауырмайтын</span> жол ізде
                     </h1>
                     <p class="welcome__text">
-                        Бұл арнайы жоба вакцина туралы сан түрлі сауалдың жауабын іздеп жүрген қалың оқырман үшін жүзеге асырылып отыр
+                        Әр баланың және қоғамның денсаулығы – маңызды мәселе, сол себепті бұл жоба вакцина туралы сан түрлі сауалдың жауабын іздеп жүрген оқырман үшін жүзеге асырылып отыр. Вакцинацияға қатысты мамандардың пікірі мен тексерілген дерек бойынша контент әзірлейміз. Жоба өзіңіз бен отбасыңыз үшін саналы шешім қабылдауға көмектеседі деген үмітіміз бар.
                     </p>
                 </div>
                 <div class="welcome__image">
@@ -85,7 +97,7 @@
         </div>
     </div>
 </section>
-            <section class="calendar">
+            <section class="calendar" id="calendar">
     <div class="container-fluid calendar__container">
         <div class="container">
             <div class="calendar__inner">
@@ -467,7 +479,7 @@
                     </button>
                     <p class="calendar-table__info">
                         Вакцинация туралы егжей-тегжейлі ақпаратты
-                        <a href="https://egu.kz/">EGU.KZ</a> айтынан білуге
+                        <a href="https://egu.kz/" target="_blank">EGU.KZ</a> сайтынан білуге
                         болады
                     </p>
                 </div>
@@ -475,7 +487,7 @@
         </div>
     </div>
 </section>
-            <section class="project">
+            <section class="project" id="project">
     <div class="container">
         <div class="project__inner">
             <div class="project__column">
@@ -485,7 +497,9 @@
                 <div class="project__sponsors">
                     <p>Жобаға қолдау білдірген</p>
                     <div class="project__sponsors-logos">
-                        <img src="images/sponsor1.svg" alt="unicef">
+                        <a href="https://www.unicef.org/kazakhstan/en" target="_blank">
+                            <img src="images/sponsor1.svg" alt="unicef">
+                        </a>
                         <img src="images/sponsor2-black.svg" alt="usaid">
                     </div>
                 </div>
@@ -495,7 +509,7 @@
                     Жоба туралы
                 </h2>
                 <p class="project__text">
-                    Бұл арнайы жоба вакцина туралы сан түрлі сауалдың жауабын іздеп жүрген қалың оқырман үшін жүзеге асырылып отыр: ғылыми-зерттеу мәліметтеріне, дәлелді медицинаға сүйене отырып танымдық мақалалар жариялаймыз және оны дәрігерлердің, сарапшылардың пікірімен растаймыз. 
+                    Бұл арнайы жоба вакцина туралы сан түрлі сауалдың жауабын іздеп жүрген қалың оқырман үшін жүзеге асырылып отыр: ғылыми-зерттеу мәліметтеріне, дәлелді медицинаға cүйеніп үтір танымдық мақалалар жариялаймыз және оны дәрігерлердің, сарапшылардың пікірімен растаймыз. 
                     <br>
                     <br>
                     Екпеге қатысты біржақты дұрыс көзқарас әлі толық қалыптасқан жоқ, оның бір себебі – көпшілікке түсінікті тілде жазылған сауатты ақпараттың жеткілікті деңгейде ұсынылмауы. Біздің медиа-жоба осы бағытта жасалған қадамның бірі болмақ. 
@@ -510,7 +524,7 @@
         </div>
     </div>
 </section>
-            <section class="team">
+            <section class="team" id="team">
     <div class="container-fluid team__container">
         <div class="container">
             <h2 class="team__title title">Команда</h2>
@@ -577,13 +591,13 @@
         </div>
     </div>
 </section>
-            <section class="contacts">
+            <section class="contacts" id="contacts">
     <div class="container">
         <h2 class="contacts__title title">Байланыс</h2>
         <address class="contacts-block">
             <div class="contacts-block__inner">
                 <h4 class="contacts-block__subtitle">
-                    Қазақстандағы БҰҰ-ның Балалар қоры (ЮНИСЕФ) Өкілдігі
+                    Қазақстандағы БҰҰ-ның Балалар Қорының (ЮНИСЕФ) Өкілдігі
                 </h4>
                 <p class="contacts-block__address">
                     010000, Нұр-Сұлтан, Бейбітшілік к-сі, 10а, Блок 1
@@ -597,7 +611,7 @@
                     >nur-sultan@unicef.org</a
                 >
                 <div class="contacts-block__social">
-                    <a href="#">
+                    <a href="https://www.facebook.com/UNICEFKazakhstan" target="_blank">
                         <svg
                             width="13"
                             height="27"
@@ -611,7 +625,7 @@
                             />
                         </svg>
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/unicefkazakhstan/" target="_blank">
                         <svg
                             width="26"
                             height="26"
@@ -627,7 +641,7 @@
                             />
                         </svg>
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/unicefkaz" target="_blank">
                         <svg
                             width="24"
                             height="20"
@@ -641,7 +655,7 @@
                             />
                         </svg>
                     </a>
-                    <a href="#" class="_youtube">
+                    <a href="https://www.youtube.com/channel/UCuh8V14r5NUBq8KM0kKVn7g" class="_youtube" target="_blank">
                         <svg
                             width="26"
                             height="19"
@@ -687,7 +701,9 @@
         <div class="footer__sponsors">
             <span>Жобаға қолдау білдірген</span>
             <div class="footer__sponsors-images">
-                <img src="images/sponsor1.svg" alt="спонсор">
+                <a href="https://www.unicef.org/kazakhstan/en/" target="_blank">
+                    <img src="images/sponsor1.svg" alt="спонсор">
+                </a>
                 <img src="images/sponsor2.svg" alt="спонсор">
                 <img src="images/sponsor3.svg" alt="спонсор">
             </div>
@@ -734,8 +750,8 @@
     </div>
 </div>
 
-    <script src="js/vendor.min.js?=1653419495462"></script>
-<script src="js/main.min.js?=1653419495462"></script>
+    <script src="js/vendor.min.js?=1653463363056"></script>
+<script src="js/main.min.js?=1653463363056"></script>
 </body>
 
 </html>
